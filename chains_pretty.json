@@ -39682,7 +39682,7 @@
   "name": "B20 Testnet",
   "chain": "B20",
   "rpc": ["https://rpc.beonescan.com"],
-  "faucets": [],
+  "faucets": ["https://faucet.beonechain.com/"],
   "nativeCurrency": {
     "name": "B20",
     "symbol": "TBOC",

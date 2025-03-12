@@ -24085,7 +24085,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.beonescan.com"],
-  "faucets": [],
+  "faucets": ["https://faucet.beonechain.com/"],
   "infoURL": "https://rpc.beonescan.com"
 }, {
   "name": "Taf ECO Chain Mainnet",

@@ -14022,7 +14022,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://l2.rarimo.com", "wss://wss.l2.rarimo.com"],
   "faucets": [],
   "infoURL": "https://rarimo.com"
 }, {
@@ -14624,13 +14624,13 @@
   "faucets": [],
   "infoURL": "https://bharatblockchain.io/"
 }, {
-  "name": "Zenchain",
+  "name": "ZenChain",
   "chainId": 8108,
   "shortName": "zen",
   "networkId": 8108,
   "nativeCurrency": {
-    "name": "ZCX",
-    "symbol": "ZCX",
+    "name": "ZTC",
+    "symbol": "ZTC",
     "decimals": 18
   },
   "rpc": [],
@@ -14858,13 +14858,13 @@
   "faucets": [],
   "infoURL": "https://wolfery.com"
 }, {
-  "name": "Zenchain Testnet",
+  "name": "ZenChain Testnet",
   "chainId": 8408,
   "shortName": "zentest",
   "networkId": 8408,
   "nativeCurrency": {
-    "name": "ZCX",
-    "symbol": "ZCX",
+    "name": "ZTC",
+    "symbol": "ZTC",
     "decimals": 18
   },
   "rpc": ["https://zenchain-testnet.api.onfinality.io/public", "wss://zenchain-testnet.api.onfinality.io/public-ws"],
@@ -16457,6 +16457,19 @@
   "faucets": [],
   "infoURL": "https://raas.gelato.network/rollups/details/public/gameswift-chain-testnet"
 }, {
+  "name": "Fuse Flash Testnet",
+  "chainId": 10920,
+  "shortName": "fuseflash",
+  "networkId": 10920,
+  "nativeCurrency": {
+    "name": "Fuse",
+    "symbol": "FUSE",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": ["https://faucet.quicknode.com"],
+  "infoURL": "https://www.fuse.io"
+}, {
   "name": "Quadrans Blockchain",
   "chainId": 10946,
   "shortName": "quadrans",
@@ -16665,18 +16678,18 @@
   "faucets": [],
   "infoURL": "https://www.egoldchain.com"
 }, {
-  "name": "BEVM Mainnet",
+  "name": "GEB Mainnet",
   "chainId": 11501,
-  "shortName": "bevm",
+  "shortName": "geb",
   "networkId": 11501,
   "nativeCurrency": {
     "name": "BTC",
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-mainnet-1.bevm.io/", "https://rpc-mainnet-2.bevm.io/"],
+  "rpc": ["https://rpc-mainnet-1.geb.network/", "https://rpc-mainnet-2.geb.network/"],
   "faucets": [],
-  "infoURL": "https://bevm.io"
+  "infoURL": "https://geb.network"
 }, {
   "name": "BEVM Testnet",
   "chainId": 11503,
@@ -16691,18 +16704,18 @@
   "faucets": [],
   "infoURL": "https://bevm.io"
 }, {
-  "name": "BEVM Signet",
+  "name": "GEB Signet",
   "chainId": 11504,
-  "shortName": "bevm-signet",
+  "shortName": "geb-signet",
   "networkId": 11504,
   "nativeCurrency": {
     "name": "BTC",
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://signet.bevm.io/"],
+  "rpc": ["https://signet.geb.network/"],
   "faucets": [],
-  "infoURL": "https://bevm.io"
+  "infoURL": "https://geb.network"
 }, {
   "name": "SatsChain",
   "chainId": 11521,
